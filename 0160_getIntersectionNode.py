@@ -42,7 +42,6 @@ class Solution:
             else:
                 curr2 = curr2.next
         
-        print(curr1, curr2)
         return curr1
 
 if __name__ == '__main__':
