@@ -1,6 +1,8 @@
 '''
 83. Remove Duplicates from Sorted List
-https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+
+URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+Level: Easy
 '''
 
 # Definition for singly-linked list.

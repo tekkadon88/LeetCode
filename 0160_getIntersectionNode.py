@@ -3,7 +3,6 @@
 
 URL: https://leetcode.com/problems/intersection-of-two-linked-lists/
 Level: Easy
-
 '''
 # Definition for singly-linked list.
 class ListNode:

@@ -3,7 +3,6 @@
 
 URL: https://leetcode.com/problems/middle-of-the-linked-list/
 Level: Easy
-
 '''
 # Definition for singly-linked list.
 class ListNode:
