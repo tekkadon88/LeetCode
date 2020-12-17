@@ -44,9 +44,15 @@ class Solution:
         処理は文字列の後ろから(DPテーブルの右下から)順番に見ていく。
         もしs[i] == s[j]となった場合、dp[i+1][j-1]がTrueであるならdp[i][j]もTrue
         """
+        if len(s) <=2:
+            if s == s[::-1]:
+                return s
+            else:
+                return s[0]
+
         # DPテーブルの初期化
         dp = [ [False]*len(s) for _ in range(len(s)) ]
-        ans = ''
+        ans = s[0]
 
         # dp[i][i]は入力文字列sのインデックスiの１文字を表す
         # 1文字だけの場合PalindromeになっているのでTrueをセット
@@ -72,5 +78,5 @@ if __name__ == '__main__':
     #s = 'ababa'
     #s = 'abcba'
     #s = 'abaca'
-    s = 'abcca'
+    s = 'abcda'
     print(solution.longestPalindrome(s))
