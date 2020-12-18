@@ -1,3 +1,9 @@
+"""
+278. First Bad Version
+
+URL: https://leetcode.com/problems/first-bad-version/
+Level: Easy
+"""
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return an integer
